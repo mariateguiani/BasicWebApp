@@ -3,5 +3,6 @@ jdk:
 - openjdk8
 script: mvn clean verify
 deploy:
+  app: chat-fans
   provider: heroku
   api_key: $HEROKU_API_KEY
